@@ -132,9 +132,11 @@ Real drone hardware, communication, GPS errors, wind, and battery limits.
 
 <!-- @space -->
 
-- Choose an algorithm for **target assignment and path planning**.
+- Choose a suitable algorithm for target assignment and path planning.
 
-- Choose test scenarios and define how to evaluate the results.
+- Build a basic 3D simulation and implement the selected algorithm.
+
+- Test formation changes, checking completion time, speed and acceleration limits, and collision avoidance.
 
 - Update the project outline and specification.
 
