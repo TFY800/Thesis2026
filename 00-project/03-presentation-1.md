@@ -8,6 +8,8 @@ project_outline: "[[00-project/01-project-outline]]"
 <!-- @set-width 90% -->
 <!-- @set-gap 2 -->
 
+<!-- @space -->
+
 # Investigation of Optimal Path Planning and Formation Changes in Drone Swarms
 
 <!-- @gap 2 -->
@@ -18,6 +20,8 @@ Supervisor: Professor Oláh Gábor
 Project ID: 2026-OG-03
 
 Semester 1 — Presentation 1
+
+<!-- @space -->
 
 ---
 
@@ -49,7 +53,7 @@ If drones each choose the closest target, two may choose the same position. Each
 
 ## Target users
 
-<!-- @gap 2 -->
+<!-- @space -->
 <!-- @columns 2 5 -->
 
 ### Drone show planners
@@ -65,6 +69,8 @@ If drones each choose the closest target, two may choose the same position. Each
 - Compare the results of different methods.
 
 <!-- @columns -->
+
+<!-- @space -->
 
 ---
 
@@ -102,7 +108,7 @@ Real drone hardware, communication, GPS errors, wind, and battery limits.
 
 ## Initial user journeys
 
-<!-- @gap 2 -->
+<!-- @space -->
 
 1. Choose the number of drones.
 
@@ -111,6 +117,8 @@ Real drone hardware, communication, GPS errors, wind, and battery limits.
 3. Run the simulation and watch the planned movement.
 
 4. Check completion time and whether any collisions occur.
+
+<!-- @space -->
 
 ---
 
@@ -122,10 +130,12 @@ Real drone hardware, communication, GPS errors, wind, and battery limits.
 
 ## Next steps
 
-<!-- @gap 2 -->
+<!-- @space -->
 
 - Choose an algorithm for **target assignment and path planning**.
 
 - Choose test scenarios and define how to evaluate the results.
 
 - Update the project outline and specification.
+
+<!-- @space -->
