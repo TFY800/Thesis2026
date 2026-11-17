@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" style="font-family:DejaVu Sans,Arial,sans-serif"><rect width="1280" height="360" fill="#ffffff"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#657080"/></marker></defs>
+<rect x="15" y="105" width="235" height="95" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="132.5" y="146.26000000000002" font-size="24" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="132.5" dy="0">Evaluate a</tspan><tspan x="132.5" dy="29.28">candidate</tspan></text>
+<rect x="325" y="25" width="325" height="90" rx="5" fill="#e8f0f8" stroke="#b9c4d0" stroke-width="2"/>
+<text x="487.5" y="64.02" font-size="23" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="487.5" dy="0">Safe and faster</tspan><tspan x="487.5" dy="28.06">update the best plan</tspan></text>
+<rect x="325" y="205" width="325" height="90" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="487.5" y="244.02" font-size="23" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="487.5" dy="0">Otherwise</tspan><tspan x="487.5" dy="28.06">keep the best plan</tspan></text>
+<polyline points="250,152 285,152 285,70 325,70" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<polyline points="285,152 285,250 325,250" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="725" y="105" width="240" height="95" rx="5" fill="#eef3f8" stroke="#b9c4d0" stroke-width="2"/>
+<text x="845" y="146.26000000000002" font-size="24" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="845" dy="0">Stop condition</tspan><tspan x="845" dy="29.28">met?</tspan></text>
+<polyline points="650,70 690,70 690,152 725,152" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<polyline points="650,250 690,250 690,152" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1020" y="105" width="245" height="95" rx="5" fill="#e8f0f8" stroke="#b9c4d0" stroke-width="2"/>
+<text x="1142.5" y="146.52" font-size="23" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="1142.5" dy="0">Best safe plan</tspan><tspan x="1142.5" dy="28.06">or no verified plan</tspan></text>
+<polyline points="965,152 1020,152" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="992" y="136" font-size="17" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="992" dy="0">Yes</tspan></text>
+<polyline points="845,200 845,317 132,317 132,200" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="480" y="307" font-size="17" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="480" dy="0">No: generate another candidate</tspan></text>
+<text x="640" y="350" font-size="21" font-weight="400" text-anchor="middle" fill="#657080"><tspan x="640" dy="0">Small valid bound gap or small recent improvement (with a safe plan), or planning budget.</tspan></text>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="610" viewBox="0 0 1280 610" style="font-family:DejaVu Sans,Arial,sans-serif"><rect width="1280" height="610" fill="#ffffff"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#657080"/></marker></defs>
+<rect x="1" y="1" width="1278" height="608" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="22" y="38" font-size="27" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="22" dy="0">Drone Formation Planner</tspan></text>
+<line x1="0" y1="58" x2="1280" y2="58" stroke="#b9c4d0" stroke-width="1.5" />
+<line x1="265" y1="58" x2="265" y2="580" stroke="#b9c4d0" stroke-width="1.5" />
+<line x1="1010" y1="58" x2="1010" y2="580" stroke="#b9c4d0" stroke-width="1.5" />
+<text x="20" y="91" font-size="22" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="20" dy="0">Scenario setup</tspan></text>
+<text x="287" y="91" font-size="22" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="287" dy="0">3D simulation and routes</tspan></text>
+<text x="1030" y="91" font-size="22" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="1030" dy="0">Results</tspan></text>
+<text x="20" y="127" font-size="20" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="20" dy="0">Drone count</tspan></text>
+<rect x="20" y="139" width="223" height="43" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="131.5" y="167.5" font-size="20" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="131.5" dy="0">20</tspan></text>
+<text x="20" y="212" font-size="20" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="20" dy="0">Default model</tspan></text>
+<rect x="20" y="224" width="223" height="43" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="131.5" y="252.5" font-size="20" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="131.5" dy="0">Model A (placeholder)</tspan></text>
+<text x="20" y="302" font-size="20" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="20" dy="0">Initial state</tspan></text>
+<text x="20" y="336" font-size="18" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="20" dy="0">○ Air formation   ○ Ground</tspan></text>
+<text x="20" y="383" font-size="20" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="20" dy="0">Initial formation</tspan></text>
+<rect x="20" y="395" width="223" height="43" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="131.5" y="423.5" font-size="20" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="131.5" dy="0">Grid (example)</tspan></text>
+<text x="20" y="470" font-size="20" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="20" dy="0">Target formation</tspan></text>
+<rect x="20" y="482" width="223" height="43" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="131.5" y="510.5" font-size="20" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="131.5" dy="0">Circle (example)</tspan></text>
+<rect x="20" y="543" width="223" height="40" rx="5" fill="#e8f0f8" stroke="#b9c4d0" stroke-width="2"/>
+<text x="131.5" y="570" font-size="20" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="131.5" dy="0">Start planning</tspan></text>
+<rect x="287" y="110" width="701" height="350" fill="#f7f8fa" stroke="#b9c4d0" stroke-width="1.5"/>
+<text x="300" y="138" font-size="18" font-weight="400" text-anchor="start" fill="#657080"><tspan x="300" dy="0">Spatial preview and illustrative route</tspan></text>
+<line x1="637" y1="307" x2="445" y2="387" stroke="#e1e5eb" stroke-width="1" />
+<line x1="637" y1="307" x2="829" y2="387" stroke="#e1e5eb" stroke-width="1" />
+<line x1="661" y1="317" x2="469" y2="397" stroke="#e1e5eb" stroke-width="1" />
+<line x1="613" y1="317" x2="805" y2="397" stroke="#e1e5eb" stroke-width="1" />
+<line x1="685" y1="327" x2="493" y2="407" stroke="#e1e5eb" stroke-width="1" />
+<line x1="589" y1="327" x2="781" y2="407" stroke="#e1e5eb" stroke-width="1" />
+<line x1="709" y1="337" x2="517" y2="417" stroke="#e1e5eb" stroke-width="1" />
+<line x1="565" y1="337" x2="757" y2="417" stroke="#e1e5eb" stroke-width="1" />
+<line x1="733" y1="347" x2="541" y2="427" stroke="#e1e5eb" stroke-width="1" />
+<line x1="541" y1="347" x2="733" y2="427" stroke="#e1e5eb" stroke-width="1" />
+<line x1="757" y1="357" x2="565" y2="437" stroke="#e1e5eb" stroke-width="1" />
+<line x1="517" y1="357" x2="709" y2="437" stroke="#e1e5eb" stroke-width="1" />
+<line x1="781" y1="367" x2="589" y2="447" stroke="#e1e5eb" stroke-width="1" />
+<line x1="493" y1="367" x2="685" y2="447" stroke="#e1e5eb" stroke-width="1" />
+<line x1="805" y1="377" x2="613" y2="457" stroke="#e1e5eb" stroke-width="1" />
+<line x1="469" y1="377" x2="661" y2="457" stroke="#e1e5eb" stroke-width="1" />
+<line x1="829" y1="387" x2="637" y2="467" stroke="#e1e5eb" stroke-width="1" />
+<line x1="445" y1="387" x2="637" y2="467" stroke="#e1e5eb" stroke-width="1" />
+<circle cx="622.6" cy="308" r="3.5" fill="#aab3bf"/><rect x="705.5" y="217.4" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="651.4" cy="320" r="3.5" fill="#aab3bf"/><rect x="679.7268455782548" y="225.20220532010305" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="680.2" cy="332" r="5" fill="#25303b"/><rect x="649.4286854299381" y="229.3040674000226" width="7" height="7" fill="white" stroke="#657080"/>
+<path d="M 680.2 332 C 760.2 242 682.9286854299381 302.80406740002263 652.9286854299381 232.8040674000226" fill="none" stroke="#25303b" stroke-width="2.5" stroke-dasharray="6 5"/>
+<text x="692.2" y="337" font-size="18" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="692.2" dy="0">D03</tspan></text>
+<circle cx="709" cy="344" r="3.5" fill="#aab3bf"/><rect x="617.5713145700619" y="229.3040674000226" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="737.8" cy="356" r="3.5" fill="#aab3bf"/><rect x="587.2731544217452" y="225.20220532010305" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="593.8" cy="320" r="3.5" fill="#aab3bf"/><rect x="561.5" y="217.4" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="622.6" cy="332" r="3.5" fill="#aab3bf"/><rect x="542.7747072317527" y="206.66118565760618" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="651.4" cy="344" r="3.5" fill="#aab3bf"/><rect x="532.9302382399458" y="194.03695226247422" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="680.2" cy="356" r="3.5" fill="#aab3bf"/><rect x="532.9302382399458" y="180.7630477375258" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="709" cy="368" r="3.5" fill="#aab3bf"/><rect x="542.7747072317527" y="168.13881434239383" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="565" cy="332" r="3.5" fill="#aab3bf"/><rect x="561.5" y="157.4" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="593.8" cy="344" r="3.5" fill="#aab3bf"/><rect x="587.2731544217451" y="149.59779467989696" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="622.6" cy="356" r="3.5" fill="#aab3bf"/><rect x="617.5713145700619" y="145.4959325999774" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="651.4" cy="368" r="3.5" fill="#aab3bf"/><rect x="649.4286854299381" y="145.4959325999774" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="680.2" cy="380" r="3.5" fill="#aab3bf"/><rect x="679.7268455782548" y="149.59779467989696" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="536.2" cy="344" r="3.5" fill="#aab3bf"/><rect x="705.5" y="157.4" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="565" cy="356" r="3.5" fill="#aab3bf"/><rect x="724.2252927682473" y="168.13881434239383" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="593.8" cy="368" r="3.5" fill="#aab3bf"/><rect x="734.0697617600542" y="180.76304773752574" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="622.6" cy="380" r="3.5" fill="#aab3bf"/><rect x="734.0697617600542" y="194.03695226247422" width="7" height="7" fill="white" stroke="#657080"/>
+<circle cx="651.4" cy="392" r="3.5" fill="#aab3bf"/><rect x="724.2252927682473" y="206.66118565760618" width="7" height="7" fill="white" stroke="#657080"/>
+<text x="287" y="493" font-size="20" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="287" dy="0">□ Show all routes</tspan></text>
+<rect x="287" y="516" width="85" height="43" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="329.5" y="544.5" font-size="20" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="329.5" dy="0">Play</tspan></text>
+<rect x="385" y="516" width="95" height="43" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="432.5" y="544.5" font-size="20" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="432.5" dy="0">Pause</tspan></text>
+<line x1="501" y1="538" x2="915" y2="538" stroke="#b9c4d0" stroke-width="4" />
+<text x="970" y="545" font-size="20" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="970" dy="0">— s</tspan></text>
+<text x="287" y="582" font-size="18" font-weight="400" text-anchor="start" fill="#657080"><tspan x="287" dy="0">Status: no plan yet</tspan></text>
+<text x="1030" y="125" font-size="18" font-weight="400" text-anchor="start" fill="#657080"><tspan x="1030" dy="0">Formation completion</tspan></text>
+<text x="1030" y="154" font-size="25" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="1030" dy="0">— s</tspan></text>
+<text x="1030" y="188" font-size="18" font-weight="400" text-anchor="start" fill="#657080"><tspan x="1030" dy="0">Planning time</tspan></text>
+<text x="1030" y="217" font-size="25" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="1030" dy="0">— s</tspan></text>
+<text x="1030" y="251" font-size="18" font-weight="400" text-anchor="start" fill="#657080"><tspan x="1030" dy="0">Minimum separation</tspan></text>
+<text x="1030" y="280" font-size="25" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="1030" dy="0">— m</tspan></text>
+<text x="1030" y="314" font-size="18" font-weight="400" text-anchor="start" fill="#657080"><tspan x="1030" dy="0">Verification</tspan></text>
+<text x="1030" y="343" font-size="25" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="1030" dy="0">Not checked</tspan></text>
+<line x1="1030" y1="365" x2="1260" y2="365" stroke="#b9c4d0" stroke-width="1.5" />
+<text x="1030" y="397" font-size="20" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="1030" dy="0">Selected drone</tspan></text>
+<rect x="1030" y="412" width="225" height="43" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="1142.5" y="440.5" font-size="20" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="1142.5" dy="0">D03</tspan></text>
+<text x="1030" y="484" font-size="18" font-weight="400" text-anchor="start" fill="#25303b"><tspan x="1030" dy="0">Drone model</tspan></text>
+<rect x="1030" y="496" width="225" height="43" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="1142.5" y="524.15" font-size="19" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="1142.5" dy="0">Model A (placeholder)</tspan></text>
+<text x="1030" y="574" font-size="19" font-weight="400" text-anchor="start" fill="#657080"><tspan x="1030" dy="0">Arrival time: — s</tspan></text>
+</svg>

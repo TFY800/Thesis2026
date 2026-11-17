@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="350" viewBox="0 0 1280 350" style="font-family:DejaVu Sans,Arial,sans-serif"><rect width="1280" height="350" fill="#ffffff"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#657080"/></marker></defs>
+<rect x="10" y="87" width="300" height="155" rx="5" fill="#eef3f8" stroke="#b9c4d0" stroke-width="2"/>
+<text x="160" y="144.49" font-size="23" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="160" dy="0">Start and goal positions</tspan><tspan x="160" dy="28.06">Per-drone speed limits</tspan><tspan x="160" dy="28.06">Acceleration limits</tspan></text>
+<polyline points="310,164 385,164" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="570" y="35" font-size="25" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="570" dy="0">Travel-time cost matrix</tspan></text>
+<text x="494" y="60" font-size="21" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="494" dy="0">1</tspan></text>
+<text x="445" y="106" font-size="21" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="445" dy="0">A</tspan></text>
+<rect x="470" y="75" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="494" y="106" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="494" dy="0">τ11</tspan></text>
+<rect x="518" y="75" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="542" y="106" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="542" dy="0">τ12</tspan></text>
+<rect x="566" y="75" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="590" y="106" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="590" dy="0">τ13</tspan></text>
+<rect x="614" y="75" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="638" y="106" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="638" dy="0">τ14</tspan></text>
+<text x="542" y="60" font-size="21" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="542" dy="0">2</tspan></text>
+<text x="445" y="154" font-size="21" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="445" dy="0">B</tspan></text>
+<rect x="470" y="123" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="494" y="154" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="494" dy="0">τ21</tspan></text>
+<rect x="518" y="123" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="542" y="154" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="542" dy="0">τ22</tspan></text>
+<rect x="566" y="123" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="590" y="154" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="590" dy="0">τ23</tspan></text>
+<rect x="614" y="123" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="638" y="154" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="638" dy="0">τ24</tspan></text>
+<text x="590" y="60" font-size="21" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="590" dy="0">3</tspan></text>
+<text x="445" y="202" font-size="21" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="445" dy="0">C</tspan></text>
+<rect x="470" y="171" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="494" y="202" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="494" dy="0">τ31</tspan></text>
+<rect x="518" y="171" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="542" y="202" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="542" dy="0">τ32</tspan></text>
+<rect x="566" y="171" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="590" y="202" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="590" dy="0">τ33</tspan></text>
+<rect x="614" y="171" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="638" y="202" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="638" dy="0">τ34</tspan></text>
+<text x="638" y="60" font-size="21" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="638" dy="0">4</tspan></text>
+<text x="445" y="250" font-size="21" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="445" dy="0">D</tspan></text>
+<rect x="470" y="219" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="494" y="250" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="494" dy="0">τ41</tspan></text>
+<rect x="518" y="219" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="542" y="250" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="542" dy="0">τ42</tspan></text>
+<rect x="566" y="219" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="590" y="250" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="590" dy="0">τ43</tspan></text>
+<rect x="614" y="219" width="48" height="48" fill="#eef3f8" stroke="#ffffff" stroke-width="3"/>
+<text x="638" y="250" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="638" dy="0">τ44</tspan></text>
+<rect x="850" y="62" width="405" height="85" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="1052.5" y="98.52" font-size="23" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="1052.5" dy="0">Hungarian baseline</tspan><tspan x="1052.5" dy="28.06">minimum sum of matrix times</tspan></text>
+<rect x="850" y="196" width="405" height="85" rx="5" fill="#e8f0f8" stroke="#b9c4d0" stroke-width="2"/>
+<text x="1052.5" y="232.52" font-size="23" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="1052.5" dy="0">Bottleneck assignment</tspan><tspan x="1052.5" dy="28.06">minimum largest matrix time</tspan></text>
+<polyline points="662,171 755,171 755,104 850,104" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<polyline points="755,171 755,239 850,239" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="640" y="330" font-size="22" font-weight="400" text-anchor="middle" fill="#657080"><tspan x="640" dy="0">L uses valid single-drone minimum times without mutual collisions.</tspan></text>
+</svg>

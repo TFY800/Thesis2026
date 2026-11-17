@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" style="font-family:DejaVu Sans,Arial,sans-serif"><rect width="1280" height="440" fill="#ffffff"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#657080"/></marker></defs>
+<rect x="20" y="35" width="220" height="75" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="130" y="66.25999999999999" font-size="24" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="130" dy="0">Choose drone</tspan><tspan x="130" dy="29.28">count</tspan></text>
+<rect x="275" y="35" width="220" height="75" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="385" y="66.25999999999999" font-size="24" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="385" dy="0">Set drone</tspan><tspan x="385" dy="29.28">models</tspan></text>
+<rect x="530" y="35" width="220" height="75" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="640" y="55.1" font-size="20" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="640" dy="0">Initial state</tspan><tspan x="640" dy="24.4">air formation</tspan><tspan x="640" dy="24.4">or ground start</tspan></text>
+<rect x="785" y="35" width="220" height="75" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="895" y="66.25999999999999" font-size="24" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="895" dy="0">Choose target</tspan><tspan x="895" dy="29.28">formation</tspan></text>
+<rect x="1040" y="35" width="220" height="75" rx="5" fill="#e8f0f8" stroke="#b9c4d0" stroke-width="2"/>
+<text x="1150" y="66.25999999999999" font-size="24" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="1150" dy="0">Start</tspan><tspan x="1150" dy="29.28">planning</tspan></text>
+<polyline points="240,72 275,72" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<polyline points="495,72 530,72" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<polyline points="750,72 785,72" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<polyline points="1005,72 1040,72" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<polyline points="1150,110 1150,176" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1040" y="176" width="220" height="75" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="1150" y="207.26000000000002" font-size="24" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="1150" dy="0">Valid</tspan><tspan x="1150" dy="29.28">settings?</tspan></text>
+<rect x="785" y="176" width="220" height="75" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="895" y="207.26000000000002" font-size="24" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="895" dy="0">Plan</tspan><tspan x="895" dy="29.28">the transition</tspan></text>
+<rect x="530" y="176" width="220" height="75" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="640" y="207.26000000000002" font-size="24" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="640" dy="0">Planning</tspan><tspan x="640" dy="29.28">successful?</tspan></text>
+<rect x="275" y="176" width="220" height="75" rx="5" fill="#e8f0f8" stroke="#b9c4d0" stroke-width="2"/>
+<text x="385" y="207.26000000000002" font-size="24" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="385" dy="0">View simulation</tspan><tspan x="385" dy="29.28">and results</tspan></text>
+<rect x="20" y="176" width="220" height="75" rx="5" fill="#ffffff" stroke="#b9c4d0" stroke-width="2"/>
+<text x="130" y="207.26000000000002" font-size="24" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="130" dy="0">Inspect one</tspan><tspan x="130" dy="29.28">drone’s route</tspan></text>
+<polyline points="1040,214 1005,214" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="1022" y="201" font-size="17" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="1022" dy="0">Yes</tspan></text>
+<polyline points="785,214 750,214" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<polyline points="530,214 495,214" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="512" y="201" font-size="17" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="512" dy="0">Yes</tspan></text>
+<polyline points="275,214 240,214" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="785" y="322" width="475" height="70" rx="5" fill="#eef3f8" stroke="#b9c4d0" stroke-width="2"/>
+<text x="1022.5" y="351.28" font-size="22" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="1022.5" dy="0">Read the message</tspan><tspan x="1022.5" dy="26.84">and edit relevant settings</tspan></text>
+<polyline points="1150,251 1150,322" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="1174" y="291" font-size="17" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="1174" dy="0">No</tspan></text>
+<polyline points="640,251 640,288 850,288 850,322" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="663" y="278" font-size="17" font-weight="400" text-anchor="middle" fill="#25303b"><tspan x="663" dy="0">No</tspan></text>
+<polyline points="785,357 8,357 8,140 385,140 385,110" fill="none" stroke="#657080" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="640" y="421" font-size="20" font-weight="400" text-anchor="middle" fill="#657080"><tspan x="640" dy="0">The system keeps the current setup when the user retries.</tspan></text>
+</svg>
