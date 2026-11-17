@@ -88,7 +88,7 @@ Project ID: 2026-OG-03
 
 ### Conflict count, time slack and local scope
 
-<!-- @width 90% -->
+<!-- @width 80% -->
 ![Conflict relationships, a nearby initially safe drone and time slack in a fixed-assignment example](https://raw.githubusercontent.com/TFY800/Thesis2026/main/00-project/assets/conflicts-slack-scope.png)
 
 - Count distinct conflicting partners and estimate the cost of changing each drone.
@@ -111,7 +111,7 @@ Candidate curve and timing methods: [Primitive-Swarm](https://arxiv.org/abs/2502
 
 ### Trajectory verification
 
-<!-- @width 90% -->
+<!-- @width 75% -->
 ![Independent checks of endpoints, continuity, motion limits, mutual separation and verification coverage](https://raw.githubusercontent.com/TFY800/Thesis2026/main/00-project/assets/trajectory-verification.png)
 
 - Check targets, continuity and motion limits. Include drones hovering after arrival in pairwise separation checks.
@@ -145,6 +145,7 @@ First-person viewing is a later extension after the core planner and viewer.
 
 ## Open risks and next steps
 
+<!-- @scale 90% -->
 | Risk or open choice | Next step |
 | --- | --- |
 | Model data may omit acceleration or response behaviour | Separate sourced values from explicit simulation assumptions. |
@@ -153,4 +154,4 @@ First-person viewing is a later extension after the core planner and viewer.
 | Ground layout, supported formations and scale remain open | Define representative scenarios and input limits. Test increasing swarm sizes. |
 | Implementation platform and 3D framework remain open | Run a small feasibility test before choosing the stack. |
 
-Next: finalize the motion model, select the first curve method and define repeatable comparison cases.
+Next: finalize the motion model, choose a curve method and define comparison cases.
