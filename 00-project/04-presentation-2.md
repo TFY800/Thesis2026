@@ -1,8 +1,10 @@
 ---
+title: "Drone Swarm Formation Changes — Presentation 2"
+text-scale: 75%
+table-scale: 90%
 project_outline: "[[00-project/01-project-outline]]"
 ---
 
-<!-- 5xl -->
 # Investigation of Optimal Path Planning and Formation Changes in Drone Swarms
 
 Presentation 2
@@ -35,6 +37,7 @@ Project ID: 2026-OG-03
 
 ## Main user journeys and requirements
 
+<!-- @width 90% -->
 ![User journey from scenario configuration to planning, inspection and retry](https://raw.githubusercontent.com/TFY800/Thesis2026/main/00-project/assets/user-journey.png)
 
 - Keep the current setup when the user corrects an input or retries planning.
@@ -56,6 +59,7 @@ Project ID: 2026-OG-03
 
 ### Planned interface
 
+<!-- @width 85% -->
 ![Planned interface with scenario setup on the left, 3D simulation in the centre and results on the right](https://raw.githubusercontent.com/TFY800/Thesis2026/main/00-project/assets/interface-wireframe.png)
 
 *Static wireframe. Drone models, formations and the route are illustrative placeholders.*
@@ -64,6 +68,7 @@ Project ID: 2026-OG-03
 
 ## Initial technical proposal
 
+<!-- @width 90% -->
 ![Proposed system structure connecting configuration, the planning core, independent verification, the 3D viewer and result metrics](https://raw.githubusercontent.com/TFY800/Thesis2026/main/00-project/assets/technical-overview.png)
 
 - Separate the planner, trajectory checker and 3D viewer.
@@ -73,6 +78,7 @@ Project ID: 2026-OG-03
 
 ### Travel time and target assignment
 
+<!-- @width 90% -->
 ![Travel-time cost matrix with a Hungarian baseline and bottleneck assignment](https://raw.githubusercontent.com/TFY800/Thesis2026/main/00-project/assets/time-assignment.png)
 
 - Calculate single-drone travel times using the chosen speed, acceleration, braking and response-delay model.
@@ -82,6 +88,7 @@ Project ID: 2026-OG-03
 
 ### Conflict count, time slack and local scope
 
+<!-- @width 90% -->
 ![Conflict relationships, a nearby initially safe drone and time slack in a fixed-assignment example](https://raw.githubusercontent.com/TFY800/Thesis2026/main/00-project/assets/conflicts-slack-scope.png)
 
 - Count distinct conflicting partners and estimate the cost of changing each drone.
@@ -92,6 +99,7 @@ Project ID: 2026-OG-03
 
 ### Candidate adjustments
 
+<!-- @width 90% -->
 ![Candidate adjustments showing delayed departure, speed changes, a smooth 3D detour and a combined adjustment](https://raw.githubusercontent.com/TFY800/Thesis2026/main/00-project/assets/candidate-adjustments.png)
 
 - Compare waiting, speed changes, smooth 3D detours and combinations.
@@ -103,6 +111,7 @@ Candidate curve and timing methods: [Primitive-Swarm](https://arxiv.org/abs/2502
 
 ### Trajectory verification
 
+<!-- @width 90% -->
 ![Independent checks of endpoints, continuity, motion limits, mutual separation and verification coverage](https://raw.githubusercontent.com/TFY800/Thesis2026/main/00-project/assets/trajectory-verification.png)
 
 - Check targets, continuity and motion limits. Include drones hovering after arrival in pairwise separation checks.
@@ -112,6 +121,7 @@ Candidate curve and timing methods: [Primitive-Swarm](https://arxiv.org/abs/2502
 
 ### Best plan and stopping rules
 
+<!-- @width 90% -->
 ![Search logic that preserves the best verified safe plan and checks stopping conditions](https://raw.githubusercontent.com/TFY800/Thesis2026/main/00-project/assets/best-plan-stopping.png)
 
 - Preserve the best verified safe plan. A worse candidate does not replace it.
